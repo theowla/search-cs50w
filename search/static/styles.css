@@ -64,3 +64,29 @@ a:link {
     cursor: pointer;
     user-select: none;
   }
+  .h1-advanced{
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+  }
+  .line{
+    border-bottom: 1px solid #ebebeb;
+  }
+  .h2-advanced{
+    font-size: 16px;
+    color: #333;
+  }
+  .div-advanced{
+    margin: 50px;
+  }
+  .row-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .left{
+    width: 200px;
+  }
+  .form-input{
+    width: 385px;
+  }

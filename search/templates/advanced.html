@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <title>Search</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="/search/static/styles.css">
     </head>
     <body>
         <div>
@@ -10,6 +10,20 @@
                 <li class="navbar-item-google"><a href="index.html">Google</a></li>
             </ul>
         </div>
-        <h1 class="h1-advanced">Advanced Search</h1>
+        <p class="h1-advanced">Advanced Search</p>
+        <div class="line"></div>
+        <div class="div-advanced">
+            <p class="h2-advanced">Find pages with...</p>
+            <form action="https://google.com/search">
+                <div class="row-input">
+                    <div class="left">
+                        <p>All these words:</p>
+                    </div>
+                    <div class="right">
+                        <input type="text" name="q" class="form-input">
+                    </div>
+                </div>
+            </form>
+        </div>
     </body>
 </html>
