@@ -83,10 +83,27 @@ a:link {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-top: 20px;
   }
   .left{
     width: 200px;
   }
   .form-input{
     width: 385px;
+  }
+  .p-advanced{
+    font-size: 13px;
+    vertical-align: middle;
+  }
+  .btn-advanced{
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+  }
+  .btn-div{
+    display: flex;
+    justify-content: flex-end;
+    width: 585px;
+    margin-top: 30px;
   }
